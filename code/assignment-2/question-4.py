@@ -13,3 +13,5 @@ arith_skewness = ticker_df[arith_returns_col_name].skew()
 arith_kurtosis = ticker_df[arith_returns_col_name].kurtosis()
 
 print("Arithmetic Properties", f"Mean: {arith_mean}", f"Var: {arith_variance}", f"Skew: {arith_skewness}", f"Kurtosis: {arith_kurtosis}")
+
+# For the code, please visit https://github.com/capatazche/cfrm-501

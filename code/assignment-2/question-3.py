@@ -76,3 +76,8 @@ ax.set_ylabel("Annual Expected Volatility")
 for i, txt in enumerate(tickers):
     ax.annotate(txt, (annual_expected_returns[i], annual_volatilities[i]))
 plt.show()
+
+# For the code, please visit https://github.com/capatazche/cfrm-501
+# The portfolio seems to bring the best of both worlds compared the individual stocks.
+# It seems to have a better return than most the individual stocks,
+# while also having a very low volatility compared to the individual stocks.
